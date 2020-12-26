@@ -1,15 +1,22 @@
 {
-  "name": "jsonmc",
-  "description": "JSON Movie Collection",
-  "author": "Sergio Moura <sergio@moura.us>",
-  "version": "0.0.1",
-  "repository": "https://github.com/jsonmc/jsonmc.git",
-  "license": "MIT",
-  "devDependencies": {
-    "jshint": "^2.9.3",
-    "lodash.deburr": "^4.1.0"
-  },
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/jsonmc/jsonmc.svg?branch=master)](https://travis-ci.org/jsonmc/jsonmc)",
+  "main": "test.js",
   "scripts": {
-    "test": "node tests/tests.js && ./node_modules/jshint/bin/jshint -e json movies/*/*.json actors/*.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adebiyiebun/json-movie-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adebiyiebun/json-movie-list/issues"
+  },
+  "homepage": "https://github.com/adebiyiebun/json-movie-list#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
